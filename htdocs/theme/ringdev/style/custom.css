@@ -1,0 +1,161 @@
+/* Custom CSS
+-------------------------*/
+body { 
+    margin-top: 0px;
+    padding-top: 0px;
+    background-image: url([[setting:logo]]);
+    background-size: 250px 75px;
+    background-position: 50px 15px;
+    background-repeat: no-repeat;
+}
+
+div.banner {
+    background: url([[setting:banner]]) no-repeat 0 0;
+    display: block;
+    height: 250px;
+    margin: 0 auto;
+    padding: 0;
+    width: 95%;
+}
+
+header nav div.container-fluid {
+    background-color: transparent;
+    background-image: url([[setting:navibarimg]]);
+    background-repeat: repeat-x;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+    width: 92%;
+    padding: 0;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+    margin-top: 100px;
+}
+
+.content {
+    background-color: #fff !important;
+}
+
+.block {
+    padding: 0 0;
+}
+
+.block .header h2 {
+    color: #fff;
+}
+
+.block{
+    background-color: red;
+}
+
+.navbar-inner .container-fluid {
+    background-color: #bd0303;
+}
+
+.navbar-inner {
+    padding: 0 !important;
+}
+
+.navbar .nav>li>a {
+    color: #fff;
+    text-shadow: 0 1px 0 #000000;
+}
+
+.navbar .brand {
+    color: #fff;
+    text-shadow: 0 1px 0 #000000;
+}
+
+.usermenu .moodle-actionmenu .toggle-display .userbutton .usertext {
+    color: #fff;
+}
+
+.dropdown-menu .divider {
+    width: auto !important;
+    height: 1px !important;
+    border-left: 0px none !important;
+    border-right: 0px none !important;
+}
+
+.nav .divider {
+    height: 46px;
+    border-left: 1px solid rgba(177, 22, 22, 0.99);
+    border-right: 1px solid rgba(177, 22, 22, 0.99);
+}
+
+#backgndbanner {
+  background-color: #000;
+  background-image: url([[setting:backgndbanner]]);
+  background-position: center center, center top;
+  background-repeat: repeat, no-repeat;
+}
+
+.row-fluid {
+    background-color: #fff;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+    -webkit-box-shadow: 0 0px 0px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 0px 0px rgba(0,0,0,.1);
+    box-shadow: 0 0px 0px rgba(0,0,0,.1);
+    border-width: 0 0 0px;
+}
+
+.navbar .brand {
+    padding: 10px 30px 10px;
+}
+
+#page-navbar {
+    width: 95%;
+    margin: 0 auto;
+}
+
+#region-main-box {
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
+    -moz-box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
+    border-width: 1px 1px 1px 1px;
+}
+
+#page-footer {
+    background: rgba(255,255,255, 0.95);
+}
+
+.usermenu .login a {
+    color: #FFE10F!important;
+}
+
+.usermenu .login {
+    color: #FFF !important;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: relative !important;
+}
+
+.alert.alert-block.alert-info {
+    margin-top: 100px;
+}
+
+.navbar .nav-collapse.in {
+    background-color: #999;
+}
+
+#id_capability {
+    width: 100% !important;
+    overflow-x: scroll !important;
+    min-width: 128px !important;
+}
+
+.navbar.navbar-fixed-top.moodle-has-zindex {
+    margin-bottom: 0px !important;
+}
+
+/* Custom CSS Settings
+-------------------------*/
+[[setting:customcss]]
