@@ -13,9 +13,6 @@ Deployment:
 Move htdocs individual files into fresh moodle dir root.
 *But for ease of use, you can simply use the quiz_grade folder only
 
-Copyright
-Copyright 2016 - xCHAN
-
 License
 The Moodle-ranking plugin for Moodle is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation.
 
