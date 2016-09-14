@@ -10,15 +10,9 @@ The original grade plugin was by Moodle and I have modified the source to obtain
 
 Contribute
 
-Fork the plugin, fix a bug or add a new feature, and send a pull-request. Or, if you're not a developer, but you've found a bug, add a issue tracker.
+Fork the plugin, fix a bug or add a new feature, and send a pull-request. Or, if you're not a developer, but you've found a bug, add an issue tracker.
 
 Deployment:
 
 Move htdocs individual files into fresh moodle dir root.
 *But for ease of use, you can simply use the quiz_grade folder only
-
-License
-
-The Moodle-ranking plugin for Moodle is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation.
-
-You should have received a copy of the GNU General Public License along with the Panopto plugin for Moodle. If not, see http://www.gnu.org/licenses/.
